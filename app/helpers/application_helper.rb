@@ -14,7 +14,7 @@ module ApplicationHelper
   	regular = /^(sort)/
   	# par = params.each {|p| regular =~ p.to_s }
   	# дописати 
-  	par = params.each do {|k,v| regular =~ k.to_s  } 
+  	par = params.select {|k,v| regular =~ k.to_s  } 
   	puts '='*50
   	puts par
     %w[sort_asc sort_desc].include?(params[:sort_asc]) ? "sort_asc" : "sort_desc"
