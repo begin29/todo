@@ -1,0 +1,42 @@
+!!!
+%html
+  %head
+    %title Todo
+    = stylesheet_link_tag    "application", :media => "all"
+    = javascript_include_tag "application"
+    = csrf_meta_tags
+  %body
+    - if flash[:error]
+      .alert.alert-error=flash[:error]
+    .navbar.navbar-fixed-top
+      .navbar-inner
+        %a.brand Todo List
+        %ul.nav
+          %li.active
+            %a{href:"#{new_task_path}"} Task
+          %li.active
+            %a{href:"#{task_lists_path}"} Task Lists
+          %li.active
+            %a{href:"#{new_tag_path}"} Tags
+        %ul.nav.secondary-nav
+          %li.dropdown
+            %a.dropdown-toggle{:href=>"#", "data-toggle"=>"dropdown"} User
+            %ul.dropdown-menu
+              - if current_user
+                %li.disabled
+                  %a{:href => "#"} Login
+                %li.disabled
+                  %a{:href => "#"} Registration
+                %li.divider
+                %li
+                  = link_to "Exit", destroy_user_session_path, :method => :delete
+              - else
+                %li
+                  %a{:href=>"#{new_user_session_path}"} Login
+                %li
+                  %a{:href=>"#{new_user_registration_path}"} Registration
+                %li.divider
+                %li.disabled
+                  %a Exit
+
+    = yield

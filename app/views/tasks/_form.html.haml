@@ -1,0 +1,51 @@
+= form_for @task, :html => { :class => 'form-horizontal' } do |f|
+  - if @task.errors.any?
+    - @task.errors.full_messages.each do |msg|  
+      .alert.alert-error=msg
+  .control-group
+    = f.label :name, :class => 'control-label'
+    .controls
+      = f.text_field :name, :class => 'text_field'
+  .control-group
+    = f.label :progress, :class => 'control-label'
+    .controls
+      = f.number_field :progress, :class => 'number_field'
+  .control-group
+    = f.label :complete, :class => 'control-label'
+    .controls
+      = f.check_box :complete, :class => 'check_box'
+  .control-group
+    = f.label :start_date, :class => 'control-label'
+    .controls
+      = f.datetime_select :start_date, :class => 'datetime_select'
+  .control-group
+    = f.label :end_date, :class => 'control-label'
+    .controls
+      = f.datetime_select :end_date, :class => 'datetime_select'
+  .control-group
+    = f.label :description, :class => 'control-label'
+    .controls
+      = f.text_area :description, :class => 'text_area'
+      = f.hidden_field :task_list_id, :value => "#{params[:task_list_id]}"
+  .control-group
+    = f.label :task_list_id, :class => 'control-label'
+    = f.hidden_field :user_id , :value => current_user.id
+    .controls
+      = f.select("task_list_id", TaskList.where(:user_id=>current_user.id).map {|t| [ t.name, t.id ] })
+  .control-group
+    = f.label :attach, :class => 'control-label'
+    .controls
+      = f.file_field :attach
+      - if @task.attach.exists?
+        = image_tag "#{@task.attach.url(:medium)}", :class => "image_attach"
+        = f.label :delete_attach, :class => "inline_label"
+        = f.check_box :delete_attach
+  .control-group
+    = f.label :tag, :class => 'control-label'
+    .controls
+      - for tag in Tag.find(:all)    
+        = check_box_tag "task[tag_ids][]", tag.id, @task.tags.include?(tag)
+        = tag.name  
+  .form-actions
+    = f.submit nil, :class => 'btn btn-primary' 
+    = link_to t('.cancel', :default => t("helpers.links.cancel")), root_path, :class => 'btn'

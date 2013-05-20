@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  progress: 1
+  complete: false
+  start_date: 2013-05-13 16:23:40
+  end_date: 2013-05-13 16:23:40
+  description: MyText
+
+two:
+  name: MyString
+  progress: 1
+  complete: false
+  start_date: 2013-05-13 16:23:40
+  end_date: 2013-05-13 16:23:40
+  description: MyText
