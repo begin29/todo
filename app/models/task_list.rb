@@ -8,5 +8,5 @@ class TaskList < ActiveRecord::Base
   
   scope :by_sortable_asc, -> sort { order(sort+' asc') }
   scope :by_sortable_desc, -> sort { order(sort+' desc') }
-  # scope :scope_progress, ->{ where( "progress > ?", '50') }
+  # scope :will_paginate, -> page { paginate( :per_page => 20, :page => page ) }
 end

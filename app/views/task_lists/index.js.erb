@@ -1,0 +1,7 @@
+$('#task_lists').append('<%= j render "task_list" , :task_lists => @task_lists %>' );
+<% if @task_lists.next_page %>
+	$(".pagination").replaceWith("<%= j will_paginate(@task_lists) %>");
+<% else %>
+	$(".pagination").hide();
+<% end %>
+<% sleep 1 %>

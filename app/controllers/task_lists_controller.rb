@@ -6,15 +6,16 @@ class TaskListsController < ApplicationController
   has_scope :by_sortable_asc, as: :sort_asc #do |controller, scope, value|
   has_scope :by_sortable_desc, as: :sort_desc
   has_scope :to_task_list, as: :id
+  # has_scope :will_paginate, as: :page
   
   def index
-    @task_lists = apply_scopes(TaskList).all
-    @order = sort_direction
-   
-    respond_to do |format|
-      format.html # index.html.erb
-      format.json { render json: @task_lists }
-    end
+    @task_lists = apply_scopes(TaskList).paginate(:per_page => 25, :page => params[:page])
+    
+    # respond_to do |format|
+    #   format.html # index.html.erb
+    #   # format.json { render json: @task_lists }
+    #   format.js
+    # end
   end
 
   # GET /task_lists/1

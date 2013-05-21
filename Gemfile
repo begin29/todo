@@ -32,7 +32,10 @@ gem 'carrierwave'
 gem "paperclip", "~> 3.0"
 gem "rmagick"
 gem 'has_scope'
+gem 'will_paginate'
+
 gem 'quiet_assets', :group => :development
+
 # gem 'will_paginate', :git => "https://github.com/p7r/will_paginate.git", :branch => "rails3"
 
 # To use ActiveModel has_secure_password
