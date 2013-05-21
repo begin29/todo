@@ -4,10 +4,10 @@
 %table.table.table-striped
   %thead
     %tr
-      %th= link_to "id" , :"#{@order}" => "id"
-      %th= link_to "Name" , :"#{@order}" => "name"
+      %th= sortable "id"
+      %th= sortable "Name"
       %th Description
-      %th= link_to "Created_at" , :"#{@order}" => "created_at" 
+      %th= sortable "Created_at"
       %th=t '.actions', :default => t("helpers.actions")
   %tbody
     - unless @task_lists.nil?

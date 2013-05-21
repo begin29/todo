@@ -1,23 +1,23 @@
 module ApplicationHelper
 	def sortable(column, title = nil)
 	  title ||= column.titleize
-	  direction = column == sort_column(column) && sort_direction == "sort_asc" ? "sort_desc" : "sort_asc"
+	  direction = column == sort_column && sort_direction == "sort_asc" ? "sort_desc" : "sort_asc"
 	  link_to title, {:"#{direction}" => column}
 	end
 
-
-  def sort_column(column)
-  	TaskList.column_names.include?(column) ? column  : "id" 
+  def sort_column
+    par = regular_find
+    par["#{par.keys[0]}"]
   end
 
   def sort_direction
-  	regular = /^(sort)/
-  	# par = params.each {|p| regular =~ p.to_s }
-  	# дописати 
-  	par = params.select {|k,v| regular =~ k.to_s  } 
-  	puts '='*50
-  	puts par
-    %w[sort_asc sort_desc].include?(params[:sort_asc]) ? "sort_asc" : "sort_desc"
+  	par = regular_find
+    %w[sort_asc sort_desc].include?(par.keys[0]) ? par.keys[0] : "sort_asc"
+  end
+
+  def regular_find
+    regular = /^(sort)/
+    params.select {|k,v| regular =~ k.to_s }
   end
 
 

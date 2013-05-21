@@ -3,12 +3,12 @@
     %tr
       %th= sortable("id")
       %th= sortable("name")
-      %th= link_to "Progress", :"#{@order}" => "progress"
+      %th= sortable("progress")
       %th Complete
-      %th= link_to "Start_date", :"#{@order}" => "start_date"
-      %th= link_to "End_date", :"#{@order}" => "end_date"
+      %th= sortable("start_date")
+      %th= sortable("end_date")
       %th Description
-      %th= link_to "Created_at", :"#{@order}" => "created_at"
+      %th= sortable("created_at")
       - if can? :destroy, Task
         %th=t '.actions', :default => t("helpers.actions")
   %tbody
