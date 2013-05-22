@@ -1,12 +1,13 @@
 class TaskListsController < ApplicationController
   load_and_authorize_resource
-  # helper_method :sort_column, :sort_direction
   # GET /task_lists.json
 
   has_scope :by_sortable_asc, as: :sort_asc #do |controller, scope, value|
   has_scope :by_sortable_desc, as: :sort_desc
   has_scope :to_task_list, as: :id
-  # has_scope :will_paginate, as: :page
+  has_scope :by_complete, as: :id do |controller, scope, value|
+    scope.by_complete
+  end
   
   def index
     @task_lists = apply_scopes(TaskList).paginate(:per_page => 25, :page => params[:page])
@@ -93,23 +94,16 @@ class TaskListsController < ApplicationController
     
     @task_list = TaskList.find(params[:id])
     @tasks = apply_scopes(Task).all #.by_complete(@params_complete)
-    @order = sort_direction
+    @tasks_complete = Task.where(:complete => true)
+
   end
 
-  private
-  
-  # # def sort_column
-  # #   TaskList.column_names.include?(params[:sort]) ? params[:sort] : "name"
-  # # end
-
-  def sort_direction
-    params.first[0] == "sort_desc" ? "sort_asc" : "sort_desc"
-  end
-
-  # def sortable(column, title = nil)
-  #   title ||= column.titleize
-  #   direction = column == sort_column && sort_direction == "asc" ? "desc" : "asc"
-  #   link_to title, {:sort => column, :direction => direction}
-  # end
+  def complete_check
+    @current_task = Task.find(params[:task_id])
+    @current_task.update_attributes(:complete=>"#{params[:type_check]}")
+    respond_to do |format|
+      format.js { render :partial => "current_task",  :locals => {:task => @current_task }}
+    end
+    end    
 
 end

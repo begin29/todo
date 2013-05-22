@@ -16,7 +16,7 @@ class Task < ActiveRecord::Base
   before_validation { attach.clear if delete_attach == '1' }
 
   scope :scope_progress, ->{ where( "progress > ?", '50') }
-  scope :by_complete, -> complete { where(:complete => complete) }
+  scope :by_complete, -> { where(:complete => false) }
   scope :by_sortable_asc, -> sort { order("#{sort} asc" ,sort) }
   scope :by_sortable_desc, -> sort { order("#{sort} desc") }
   scope :to_task_list, -> id {where(task_list_id: id)}

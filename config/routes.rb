@@ -12,6 +12,7 @@ Todo::Application.routes.draw do
 
   match "task_lists/view/:id" => "task_lists#view" ,as: "view_task_list"
 
+  post "task_lists/complete_check" => "task_lists#complete_check"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

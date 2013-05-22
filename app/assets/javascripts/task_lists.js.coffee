@@ -7,4 +7,18 @@ jQuery ->
 		if url && $(window).scrollTop() > $(document).height() - $(window).height() - 50
 			$('.pagination').text("Waiting for more...")
 			$.getScript(url)
+	
+	$("input[type=checkbox]").on 'click', ->
+		address = 'http://'+window.location.host+"/task_lists/complete_check"
+		if $(this).closest("tr").attr("class") == "checked"
+			flag = false
+		else
+			flag = true
+
+		$.post address,
+		task_id: $(this).val()
+		type_check: flag
+		success: (data, textStatus, jqXHR) ->
+			
+		
 		

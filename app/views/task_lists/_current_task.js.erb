@@ -1,0 +1,7 @@
+   <% if task.complete == true %>
+     this_task = $("#task_complete_"+<%=task.id%>).closest("tr").attr("class", "checked");
+     $("#complete").append(this_task);
+   <% else %>
+     this_task = $("#task_complete_"+<%=task.id%>).closest("tr").attr("class", "uncheck");
+     $("#uncomplete").append(this_task);
+   <% end %>
