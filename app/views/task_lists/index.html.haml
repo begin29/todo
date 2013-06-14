@@ -1,15 +1,16 @@
-- model_class = TaskList
-.page-header
-  %h1=t '.title', :default => model_class.model_name.human.pluralize
-  %table.table.table-striped
-    %thead
-      %tr
-        %th= sortable "id"
-        %th= sortable "Name"
-        %th Description
-        %th= sortable "Created_at"
-        %th=t '.actions', :default => t("helpers.actions")
-    %tbody#task_lists
-      = render :partial=>"task_list", :locals => { :task_lists => @task_lists }
-  = link_to t('.new', :default => t("helpers.links.new")), new_task_list_path, :class => 'btn btn-primary' if can? :destroy, TaskList
-= will_paginate @task_lists
+#test_element
+#body_document
+  - model_class = TaskList
+  .page-header
+    %h1=t '.title', :default => model_class.model_name.human.pluralize
+    %table.table.table-striped
+      %thead
+        %tr
+          %th= sortable "id"
+          %th= sortable "Name"
+          %th Description
+          %th= sortable "Created_at"
+          %th=t '.actions', :default => t("helpers.actions")
+      %tbody#task_lists
+    = link_to t('.new', :default => t("helpers.links.new")), new_task_list_path, :class => 'btn btn-primary' if can? :destroy, TaskList
+  / # = will_paginate @task_lists

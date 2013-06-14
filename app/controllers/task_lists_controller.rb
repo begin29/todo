@@ -3,26 +3,33 @@ class TaskListsController < ApplicationController
   # GET /task_lists.json
 
   has_scope :by_sortable_asc, as: :sort_asc #do |controller, scope, value|
+    # scope.by_sortable_asc("#{scope.value}" + value)
+  # end
+
   has_scope :by_sortable_desc, as: :sort_desc
   has_scope :to_task_list, as: :id
   has_scope :by_complete, as: :id do |controller, scope, value|
     scope.by_complete
   end
   
+  
   def index
-    @task_lists = apply_scopes(TaskList).paginate(:per_page => 25, :page => params[:page])
     
-    # respond_to do |format|
-    #   format.html # index.html.erb
-    #   # format.json { render json: @task_lists }
-    #   format.js
-    # end
+    # puts params[:page]
+    # @task_lists = apply_scopes(TaskList).paginate(:per_page => 25, :page => params[:page])
+    @task_lists = TaskList.all
+
+    @task_lists = cancan(@task_lists)
+        
+    respond_to do |format|
+      format.html # index.html.erb
+      format.json { render json: @task_lists }
+    end
   end
 
   # GET /task_lists/1
   # GET /task_lists/1.json
   def show
-    # @task_list = TaskList.find(params[:id])
 
     respond_to do |format|
       format.html # show.html.erb
@@ -95,7 +102,7 @@ class TaskListsController < ApplicationController
     @task_list = TaskList.find(params[:id])
     @tasks = apply_scopes(Task).all #.by_complete(@params_complete)
     @tasks_complete = Task.where(:complete => true)
-
+    
   end
 
   def complete_check
@@ -104,6 +111,15 @@ class TaskListsController < ApplicationController
     respond_to do |format|
       format.js { render :partial => "current_task",  :locals => {:task => @current_task }}
     end
-    end    
+  end    
+
+  private
+  def cancan list
+    list.each do |task_list| 
+      if can? :destroy, task_list
+        task_list.cancan = "true"
+      end
+    end
+  end
 
 end

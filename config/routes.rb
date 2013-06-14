@@ -6,9 +6,11 @@ Todo::Application.routes.draw do
 
   get "main/index"
 
-  resources :tasks , :except => :index
+  # resources :tasks , :except => :index
 
-  resources :task_lists
+  resources :task_lists do
+    resources :tasks
+  end
 
   match "task_lists/view/:id" => "task_lists#view" ,as: "view_task_list"
 
