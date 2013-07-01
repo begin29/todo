@@ -48,7 +48,6 @@ gem 'has_scope'
 gem 'will_paginate'
 
 gem 'quiet_assets', :group => :development
-gem 'execjs'
 
 # gem 'will_paginate', :git => "https://github.com/p7r/will_paginate.git", :branch => "rails3"
 
