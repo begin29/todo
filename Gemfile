@@ -8,10 +8,12 @@ gem 'rails', '3.2.12'
 
 # Gems used only for assets and not required
 # in production environments by default.
+
 group :assets do
+  gem 'therubyracer'
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
-  gem 'twitter-bootstrap-rails'
+  gem 'twitter-bootstrap-rails' , '2.2.7'
   gem "less-rails"
   gem 'rails-backbone', "~> 0.9.10"
   gem 'backbone-support'
@@ -29,12 +31,11 @@ group :development, :test do
   gem 'guard-rspec'
 end
 
-group :production do
-  gem 'pg'
-end
+# group :production do
+  
+# end
 
-# gem "rails-backbone"
-gem 'therubyracer', :platforms => :ruby
+gem 'pg'
 gem 'haml-rails'
 gem 'jquery-rails'
 gem 'devise'

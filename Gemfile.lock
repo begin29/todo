@@ -248,6 +248,6 @@ DEPENDENCIES
   sass-rails (~> 3.2.3)
   shoulda-matchers
   therubyracer
-  twitter-bootstrap-rails
+  twitter-bootstrap-rails (= 2.2.7)
   uglifier (>= 1.0.3)
   will_paginate
