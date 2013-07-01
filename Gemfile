@@ -49,20 +49,3 @@ gem 'has_scope'
 gem 'will_paginate'
 
 gem 'quiet_assets', :group => :development
-
-# gem 'will_paginate', :git => "https://github.com/p7r/will_paginate.git", :branch => "rails3"
-
-# To use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
-
-# To use Jbuilder templates for JSON
-# gem 'jbuilder'
-
-# Use unicorn as the app server
-# gem 'unicorn'
-
-# Deploy with Capistrano
-# gem 'capistrano'
-
-# To use debugger
-# gem 'debugger'
