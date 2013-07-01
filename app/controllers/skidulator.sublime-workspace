@@ -1,0 +1,2133 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"order",
+				"orderToSkidulation"
+			],
+			[
+				"order_to",
+				"order_to_skidulation"
+			],
+			[
+				"add",
+				"addToSkidulation"
+			],
+			[
+				"las",
+				"last_order_date"
+			],
+			[
+				"da",
+				"data"
+			],
+			[
+				"av",
+				"average_order_quantity"
+			],
+			[
+				"la",
+				"last_order_date"
+			],
+			[
+				"last_order",
+				"last_order_quantity"
+			],
+			[
+				"che",
+				"checkTab"
+			],
+			[
+				"wi",
+				"weight"
+			],
+			[
+				"sku",
+				"sku_desc"
+			],
+			[
+				"qu",
+				"quantity_check"
+			],
+			[
+				"data",
+				"data_holder"
+			],
+			[
+				"cu",
+				"customer_item"
+			],
+			[
+				"work",
+				"workflow_state"
+			],
+			[
+				"sea",
+				"search_number"
+			],
+			[
+				"nu",
+				"number"
+			],
+			[
+				"S",
+				"Skidulation"
+			],
+			[
+				"Se",
+				"Search"
+			],
+			[
+				"search",
+				"search_item_by_sku"
+			],
+			[
+				"fi",
+				"first"
+			],
+			[
+				"cus",
+				"customer_contacts"
+			],
+			[
+				"cutomer_",
+				"customer_contacts"
+			],
+			[
+				"des",
+				"description"
+			],
+			[
+				"Ta",
+				"TaskListsIndex"
+			],
+			[
+				"vi",
+				"Views"
+			],
+			[
+				"id",
+				"id"
+			],
+			[
+				"tas",
+				"task_lists"
+			],
+			[
+				"op",
+				"options"
+			],
+			[
+				"ca",
+				"cancan"
+			],
+			[
+				"ta",
+				"taskL4"
+			],
+			[
+				"task",
+				"task_list"
+			],
+			[
+				"T",
+				"TaskListsIndex"
+			],
+			[
+				"in",
+				"index"
+			],
+			[
+				"test",
+				"test_render"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"atta",
+				"AttachTlUploader"
+			],
+			[
+				"cre",
+				"create_tasks"
+			],
+			[
+				"va",
+				"value1"
+			],
+			[
+				"end",
+				"end_date"
+			],
+			[
+				"sta",
+				"start"
+			],
+			[
+				"by",
+				"by_sortable_asc"
+			],
+			[
+				"Tas",
+				"TaskList"
+			],
+			[
+				"desc",
+				"describe"
+			],
+			[
+				"star",
+				"start_date"
+			],
+			[
+				"ra",
+				"random_date"
+			],
+			[
+				"Fa",
+				"Faker"
+			],
+			[
+				"requ",
+				"require"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"line",
+				"line-through"
+			],
+			[
+				"jq",
+				"jqXHR"
+			],
+			[
+				"text",
+				"textStatus"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"su",
+				"successfully"
+			],
+			[
+				"up",
+				"update"
+			],
+			[
+				"un",
+				"uncheck"
+			],
+			[
+				"Co",
+				"Complete"
+			],
+			[
+				"j",
+				"jQuery"
+			],
+			[
+				"scope",
+				"scope"
+			],
+			[
+				"re",
+				"regular_find"
+			],
+			[
+				"pa",
+				"params"
+			],
+			[
+				"so",
+				"sort_column"
+			],
+			[
+				"sort",
+				"sort_direction"
+			],
+			[
+				"sort_",
+				"sort_asc"
+			],
+			[
+				"di",
+				"direction"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"app",
+				"apply_scopes"
+			],
+			[
+				"swi",
+				"switch_scopes_task_list"
+			],
+			[
+				"VA",
+				"value2"
+			],
+			[
+				"Task",
+				"Task"
+			],
+			[
+				"link",
+				"link_to"
+			],
+			[
+				"control",
+				"control-label"
+			],
+			[
+				"action",
+				"action_mailer"
+			],
+			[
+				"reso",
+				"resource"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/vadym/projects/skidulator/app/assets/javascripts/backbone/views/skidulation_page.js",
+			"settings":
+			{
+				"buffer_size": 12324,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/vadym/projects/skidulator/app/models/recommended_item.rb",
+			"settings":
+			{
+				"buffer_size": 368,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/vadym/projects/skidulator/app/assets/templates/recommended_items/recommended_item_table_row.jst.ejs",
+			"settings":
+			{
+				"buffer_size": 393,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/vadym/projects/skidulator/app/views/skidulations/partials/_check_items_tab.html.haml",
+			"settings":
+			{
+				"buffer_size": 544,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/vadym/projects/skidulator/app/assets/javascripts/backbone/views/item_check_item.js",
+			"settings":
+			{
+				"buffer_size": 711,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/vadym/projects/skidulator/app/views/skidulations/partials/_customer_tab.html.haml",
+			"settings":
+			{
+				"buffer_size": 2378,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/vadym/projects/skidulator/app/assets/templates/items/item_check_item.jst.ejs",
+			"settings":
+			{
+				"buffer_size": 1400,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/vadym/projects/skidulator/config/locales/en.yml",
+			"settings":
+			{
+				"buffer_size": 9542,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/vadym/projects/skidulator/app/views/skidulations/partials/_recommended_tab.html.haml",
+			"settings":
+			{
+				"buffer_size": 849,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/vadym/projects/skidulator/app/views/skidulations/partials/_ordered_tab.html.haml",
+			"settings":
+			{
+				"buffer_size": 797,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/vadym/projects/skidulator/app/assets/templates/ordered_items/ordered_item_table_row.jst.ejs",
+			"settings":
+			{
+				"buffer_size": 512,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 180.0,
+		"selected_items":
+		[
+			[
+				"syn ht",
+				"Set Syntax: HTML (Rails)"
+			],
+			[
+				"sy ht",
+				"Set Syntax: HTML (Rails)"
+			],
+			[
+				"sy",
+				"Set Syntax: HTML (Rails)"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 521.0
+	},
+	"console":
+	{
+		"height": 153.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/vadym/projects/skidulator/app/views/skidulations/partials/_customer_tab.html.haml",
+		"/home/vadym/projects/skidulator/app/views/skidulations/partials/_check_items_tab.html.haml",
+		"/home/vadym/projects/skidulator/app/models/customer_item.rb",
+		"/home/vadym/projects/skidulator/config/database.yml",
+		"/home/vadym/projects/skidulator/app/models/ordered_item.rb",
+		"/home/vadym/projects/skidulator/config/locales/en.yml",
+		"/home/vadym/projects/skidulator/app/views/skidulations/partials/_recommended_tab.html.haml",
+		"/home/vadym/projects/skidulator/app/views/skidulations/show.html.haml",
+		"/home/vadym/projects/skidulator/app/views/skidulations/partials/_skidulation_details.html.haml",
+		"/home/vadym/projects/skidulator/app/views/skidulations/partials/_close_modal.html.haml",
+		"/home/vadym/projects/skidulator/active-json/lib/active-json/connector.rb",
+		"/home/vadym/projects/skidulator/app/assets/stylesheets/bootstrap_and_overrides.css.less",
+		"/home/vadym/projects/skidulator/config/routes.rb",
+		"/home/vadym/projects/skidulator/app/views/skidulations/index.html.haml",
+		"/home/vadym/projects/skidulator/app/models/skidulation.rb",
+		"/home/vadym/projects/skidulator/app/assets/stylesheets/skidulations.css",
+		"/home/vadym/projects/skidulator/app/assets/javascripts/backbone/views/recommended_item.js",
+		"/home/vadym/projects/skidulator/app/assets/templates/recommended_items/recommended_item_table_row.jst.ejs",
+		"/home/vadym/projects/skidulator/app/assets/templates/items/item_check_item.jst.ejs",
+		"/home/vadym/projects/skidulator/app/assets/javascripts/backbone/collections/recommended_items.js",
+		"/home/vadym/projects/skidulator/app/controllers/recommended_items_controller.rb",
+		"/home/vadym/projects/skidulator/app/models/recommended_item.rb",
+		"/home/vadym/projects/skidulator/app/views/skidulations/partials/_activity_tab.html.haml",
+		"/home/vadym/projects/skidulator/app/controllers/items_controller.rb",
+		"/home/vadym/projects/skidulator/app/controllers/application_controller.rb",
+		"/home/vadym/projects/skidulator/lib/tasks/skidulator.rake",
+		"/home/vadym/projects/skidulator/app/controllers/skidulations_controller.rb",
+		"/home/vadym/projects/skidulator/app/views/skidulations/partials/_orders_tab.html.haml",
+		"/home/vadym/projects/skidulator/db/migrate/20130618152941_add_last_order_date_quantity_average_order_to_recommended_items.rb",
+		"/home/vadym/projects/skidulator/app/models/item.rb",
+		"/home/vadym/projects/skidulator/app/assets/templates/recommended_items/recommended_item_table_row_short.jst.ejs",
+		"/home/vadym/projects/skidulator/app/assets/javascripts/backbone/models/recommended_item.js",
+		"/home/vadym/projects/skidulator/app/mailers/skidulation_mailer.rb",
+		"/home/vadym/projects/skidulator/app/models/skidulation_activity.rb",
+		"/home/vadym/projects/skidulator/app/controllers/customer_settings_controller.rb",
+		"/home/vadym/projects/skidulator/app/views/skidulations/partials/_release_modal.html.haml",
+		"/home/vadym/projects/skidulator/Gemfile",
+		"/home/vadym/projects/skidulator/.gitignore",
+		"/home/vadym/projects/skidulator (2)/Gemfile.lock",
+		"/home/vadym/projects/skidulator (2)/app/views/skidulations/partials/_release_modal.html.haml",
+		"/home/vadym/projects/skidulator/db/migrate/20130603084744_add_email_field_to_customer_settings.rb",
+		"/home/vadym/projects/skidulator/spec/views/skidulations/show.html.haml_spec.rb",
+		"/home/vadym/projects/skidulator/app/assets/javascripts/application.js",
+		"/home/vadym/projects/Todo/app/models/ability.rb",
+		"/home/vadym/projects/Todo/app/views/tasks/_form.html.haml",
+		"/home/vadym/projects/Todo/app/views/task_lists/_current_task.js.erb",
+		"/home/vadym/projects/Todo/app/models/task_list.rb",
+		"/home/vadym/projects/Todo/app/views/task_lists/show.html.haml",
+		"/home/vadym/projects/Todo/app/assets/javascripts/application.js",
+		"/home/vadym/projects/Todo/app/assets/javascripts/task_lists.js.coffee",
+		"/home/vadym/projects/Todo/app/assets/javascripts/backbone/routes/main.js",
+		"/home/vadym/projects/Todo/app/assets/javascripts/backbone/collection/task_lists.js",
+		"/home/vadym/projects/Todo/app/assets/javascripts/backbone/models/task_list.js",
+		"/home/vadym/projects/Todo/app/views/layouts/application.html.haml",
+		"/home/vadym/projects/Todo/app/assets/javascripts/dev.js",
+		"/home/vadym/projects/Todo/app/assets/javascripts/backbone/views/task_lists_index.js",
+		"/home/vadym/projects/Todo/app/assets/javascripts/templates/tasklists/index.jst.ejs",
+		"/home/vadym/projects/Todo/config/routes.rb",
+		"/home/vadym/projects/Todo/app/views/task_lists/index.html.haml",
+		"/home/vadym/projects/Todo/app/controllers/task_lists_controller.rb",
+		"/home/vadym/projects/Todo/app/views/task_lists/_task_list.html.haml",
+		"/home/vadym/projects/Todo/app/assets/javascripts/backbone/routers/main.js",
+		"/home/vadym/projects/Todo/spec/factories/task_list.rb",
+		"/home/vadym/projects/Todo/Gemfile",
+		"/home/vadym/projects/Todo/app/views/task_lists/_tasklist.html.haml",
+		"/home/vadym/projects/Todo/app/assets/stylesheets/scaffolds.css.scss",
+		"/home/vadym/projects/Todo/app/assets/javascripts/backbone/routers/routes.js",
+		"/home/vadym/projects/Todo/app/assets/javascripts/backbone/templates/todo_list.jst.ejs",
+		"/home/vadym/projects/Todo/app/views/tasks/index.html.haml",
+		"/home/vadym/projects/Todo/app/views/task_lists/view.html.haml",
+		"/home/vadym/projects/Todo/app/assets/javascripts/backbone/views/task_list_show.js",
+		"/home/vadym/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/vadym/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/vadym/projects/Todo/spec/models/task_list_spec.rb",
+		"/home/vadym/projects/Todo/app/views/task_lists/_form.html.haml",
+		"/home/vadym/projects/Todo/Gemfile.lock",
+		"/home/vadym/projects/Todo/app/views/tags/index.html.haml",
+		"/home/vadym/projects/Todo/config/database.yml",
+		"/home/vadym/projects/Todo/app/helpers/application_helper.rb",
+		"/home/vadym/projects/Todo/app/models/task.rb",
+		"/home/vadym/projects/Todo/app/controllers/tasks_controller.rb",
+		"/home/vadym/projects/Todo/config/environments/development.rb",
+		"/home/vadym/projects/Todo/config/environment.rb",
+		"/home/vadym/projects/Todo/app/views/task_lists/index.js.erb",
+		"/home/vadym/projects/Todo/app/assets/stylesheets/task_lists.css.scss",
+		"/home/vadym/projects/Todo/app/models/user.rb",
+		"/home/vadym/projects/Todo/spec/factories/user.rb",
+		"/home/vadym/projects/Todo/spec/models/user_spec.rb",
+		"/home/vadym/projects/Todo/spec/spec_helper.rb",
+		"/home/vadym/spec_helper.rb",
+		"/home/vadym/projects/Todo/spec/models/task_spec.rb",
+		"/home/vadym/projects/Todo/spec/factories/tag.rb",
+		"/home/vadym/projects/Todo/spec/models/tag_spec.rb",
+		"/home/vadym/projects/Todo/spec/factories/task.rb",
+		"/home/vadym/projects/Todo/app/uploaders/attach_tl_uploader.rb",
+		"/home/vadym/projects/Todo/config/application.rb",
+		"/home/vadym/projects/Todo/app/models/tag.rb",
+		"/home/vadym/projects/Todo/app/views/tags/_form.html.haml",
+		"/home/vadym/projects/Todo/config/locales/devise.en.yml",
+		"/home/vadym/projects/Todo/config/initializers/carrierwave.rb",
+		"/home/vadym/projects/Todo/spec/factories.rb",
+		"/home/vadym/projects/Todo/spec/models/task_list.rb",
+		"/home/vadym/projects/Todo/spec/task_list_spec.rb",
+		"/home/vadym/projects/Todo/app/views/task_lists/_current_task111.html.haml",
+		"/home/vadym/projects/Todo/app/views/task_lists/current_task.html.haml",
+		"/home/vadym/projects/Todo/app/views/task_lists/_task_list.js.erb",
+		"/home/vadym/projects/Todo/app/views/task_lists/_task_list111.html.haml",
+		"/home/vadym/projects/Todo/config/environments/production.rb",
+		"/home/vadym/projects/Todo/app/controllers/application_controller.rb",
+		"/home/vadym/projects/Todo/app/views/tasks/edit.html.haml",
+		"/home/vadym/projects/Todo/app/views/main/index.html.haml",
+		"/home/vadym/projects/Todo/app/assets/stylesheets/bootstrap_and_overrides.css.less",
+		"/home/vadym/projects/Todo/config/locales/en.bootstrap.yml",
+		"/home/vadym/projects/Todo/app/views/tasks/show.html.haml",
+		"/home/vadym/projects/Todo/app/views/task_lists/new.html.haml",
+		"/home/vadym/projects/Todo/app/views/devise/registrations/new.html.erb",
+		"/home/vadym/projects/Todo/app/views/devise/confirmations/new.html.haml",
+		"/home/vadym/projects/Todo/app/views/devise/registrations/new.html.haml",
+		"/home/vadym/projects/Todo/app/views/devise/registrations/edit.html.haml",
+		"/home/vadym/projects/Todo/app/views/devise/passwords/edit.html.haml",
+		"/home/vadym/projects/Todo/app/views/devise/passwords/new.html.haml",
+		"/home/vadym/projects/Todo/app/assets/stylesheets/application.css",
+		"/home/vadym/projects/Todo/app/views/devise/sessions/new.html.haml",
+		"/home/vadym/projects/Todo/db/migrate/20130514094108_devise_create_users.rb",
+		"/home/vadym/projects/Todo/app/controllers/users/registrations_controller.rb",
+		"/home/vadym/projects/Todo/app/views/task_lists/edit.html.haml",
+		"/home/vadym/projects/Todo/db/migrate/20130514160543_add_easy_roles_to_users.rb",
+		"/home/vadym/projects/Todo/app/views/tags/show.html.haml"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/home/vadym/projects/skidulator",
+			"/home/vadym/projects/Todo"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"check_item",
+			"add_to_skidulation",
+			"check",
+			"dl",
+			"uom1",
+			"check_results",
+			"check_item",
+			"console.log",
+			"orderToSkidulation",
+			"addToSkidulation",
+			"orderToSkidulation",
+			"#order_to_skidulation",
+			"order",
+			"Infinity",
+			"item-data",
+			"addToSkidulation",
+			"recommended_volume",
+			"customer_items",
+			"@item",
+			"time",
+			")\n",
+			"you_are_going_to_release_the_skidulation",
+			"workflow",
+			"check_status",
+			"paginate",
+			"you_can_t_release_without_customer_email",
+			"email",
+			"Customer",
+			"release_modal",
+			".alert.hidden",
+			"releaseSkidulation",
+			"Release",
+			"expire",
+			"task_path",
+			" </",
+			"resources",
+			"responseText",
+			"history",
+			"Backbone.history",
+			"todo_list_body",
+			"task_lists",
+			"task_list",
+			"todo_list_body",
+			"#test",
+			"todo_list_body",
+			"simple_text",
+			"#simple_text",
+			"underscore",
+			"blank",
+			"can`t be",
+			"AttachTlUploader",
+			"megabytes",
+			"kilobytes",
+			"do",
+			"factory",
+			"factory_girl",
+			"rails_error",
+			"sort_direction",
+			"]}\"]\n",
+			"user",
+			"current_user",
+			"switch_scope",
+			"\")",
+			"sort_column",
+			"order",
+			")\n",
+			":\n",
+			":authenticate_user!",
+			"before_filter :authenticate_user!",
+			"before_filter :authenticate_user!\nbefore_filter :authenticate_user!\nbefore_filter :authenticate_user!\nbefore_filter :authenticate",
+			"errors.add",
+			".field_with_errors",
+			"error_messages"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/vadym/projects/skidulator/app/assets/javascripts/backbone/views/skidulation_page.js",
+					"settings":
+					{
+						"buffer_size": 12324,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1003,
+								1003
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/vadym/projects/skidulator/app/models/recommended_item.rb",
+					"settings":
+					{
+						"buffer_size": 368,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								228,
+								228
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 239.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/vadym/projects/skidulator/app/assets/templates/recommended_items/recommended_item_table_row.jst.ejs",
+					"settings":
+					{
+						"buffer_size": 393,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								295,
+								295
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/vadym/projects/skidulator/app/views/skidulations/partials/_check_items_tab.html.haml",
+					"settings":
+					{
+						"buffer_size": 544,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								427,
+								427
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/Haml/Syntaxes/Ruby Haml.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/vadym/projects/skidulator/app/assets/javascripts/backbone/views/item_check_item.js",
+					"settings":
+					{
+						"buffer_size": 711,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								448,
+								448
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/vadym/projects/skidulator/app/views/skidulations/partials/_customer_tab.html.haml",
+					"settings":
+					{
+						"buffer_size": 2378,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2054,
+								2054
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/Haml/Syntaxes/Ruby Haml.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 486.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/home/vadym/projects/skidulator/app/assets/templates/items/item_check_item.jst.ejs",
+					"settings":
+					{
+						"buffer_size": 1400,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								461,
+								461
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/home/vadym/projects/skidulator/config/locales/en.yml",
+					"settings":
+					{
+						"buffer_size": 9542,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5318,
+								5318
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3105.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 8,
+					"file": "/home/vadym/projects/skidulator/app/views/skidulations/partials/_recommended_tab.html.haml",
+					"settings":
+					{
+						"buffer_size": 849,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								305,
+								305
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/Haml/Syntaxes/Ruby Haml.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/home/vadym/projects/skidulator/app/views/skidulations/partials/_ordered_tab.html.haml",
+					"settings":
+					{
+						"buffer_size": 797,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								786,
+								786
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/Haml/Syntaxes/Ruby Haml.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/home/vadym/projects/skidulator/app/assets/templates/ordered_items/ordered_item_table_row.jst.ejs",
+					"settings":
+					{
+						"buffer_size": 512,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								270,
+								270
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/home/vadym/projects/skidulator/app/assets/templates/items/item_check_item.jst.ejs",
+					"settings":
+					{
+						"buffer_size": 1400,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								715,
+								715
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.478986944381,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 124.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"_custo",
+				"app/views/skidulations/partials/_customer_tab.html.haml"
+			],
+			[
+				"check",
+				"app/views/skidulations/partials/_check_items_tab.html.haml"
+			],
+			[
+				"page",
+				"app/assets/javascripts/backbone/views/skidulation_page.js"
+			],
+			[
+				"en.yml",
+				"config/locales/en.yml"
+			],
+			[
+				"_cus",
+				"app/views/skidulations/partials/_customer_tab.html.haml"
+			],
+			[
+				"customerit",
+				"app/models/customer_item.rb"
+			],
+			[
+				"check.js",
+				"app/assets/templates/items/item_check_item.jst.ejs"
+			],
+			[
+				"",
+				"app/views/skidulations/partials/_check_items_tab.html.haml"
+			],
+			[
+				"data",
+				"config/database.yml"
+			],
+			[
+				"_cu",
+				"app/views/skidulations/partials/_customer_tab.html.haml"
+			],
+			[
+				"customer_ta",
+				"app/views/skidulations/partials/_customer_tab.html.haml"
+			],
+			[
+				"_che",
+				"app/views/skidulations/partials/_check_items_tab.html.haml"
+			],
+			[
+				"reco",
+				"app/models/recommended_item.rb"
+			],
+			[
+				"order",
+				"app/models/ordered_item.rb"
+			],
+			[
+				"_re",
+				"app/views/skidulations/partials/_recommended_tab.html.haml"
+			],
+			[
+				"_order",
+				"app/views/skidulations/partials/_orders_tab.html.haml"
+			],
+			[
+				"skidu",
+				"app/assets/stylesheets/skidulations.css"
+			],
+			[
+				"en",
+				"config/locales/en.yml"
+			],
+			[
+				"re",
+				"app/models/recommended_item.rb"
+			],
+			[
+				"custtab",
+				"app/views/skidulations/partials/_customer_tab.html.haml"
+			],
+			[
+				"skidulationpage",
+				"app/assets/javascripts/backbone/views/skidulation_page.js"
+			],
+			[
+				"recommended",
+				"app/models/recommended_item.rb"
+			],
+			[
+				"skidulatorra",
+				"lib/tasks/skidulator.rake"
+			],
+			[
+				"recommendedi",
+				"app/models/recommended_item.rb"
+			],
+			[
+				"recomended_tab",
+				"app/views/skidulations/partials/_recommended_tab.html.haml"
+			],
+			[
+				"_orderstab",
+				"app/views/skidulations/partials/_orders_tab.html.haml"
+			],
+			[
+				"template",
+				"app/assets/templates/recommended_items/recommended_item_table_row.jst.ejs"
+			],
+			[
+				"skidulationco",
+				"app/controllers/skidulations_controller.rb"
+			],
+			[
+				"partial",
+				"app/views/skidulations/partials/_customer_tab.html.haml"
+			],
+			[
+				"skidulationin",
+				"app/views/skidulations/index.html.haml"
+			],
+			[
+				"skidulationcon",
+				"app/controllers/skidulations_controller.rb"
+			],
+			[
+				"index",
+				"app/views/skidulations/index.html.haml"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"skidulationcont",
+				"app/controllers/skidulations_controller.rb"
+			],
+			[
+				"ski",
+				"app/models/skidulation.rb"
+			],
+			[
+				"partialcheck",
+				"app/views/skidulations/partials/_check_items_tab.html.haml"
+			],
+			[
+				"skidulationshow",
+				"app/views/skidulations/show.html.haml"
+			],
+			[
+				"skidulationindex",
+				"app/views/skidulations/index.html.haml"
+			],
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
+				"ge",
+				"Gemfile"
+			],
+			[
+				"bootst",
+				"app/assets/stylesheets/bootstrap_and_overrides.css.less"
+			],
+			[
+				"customercontro",
+				"app/controllers/customer_settings_controller.rb"
+			],
+			[
+				"scidulationshow",
+				"spec/views/skidulations/show.html.haml_spec.rb"
+			],
+			[
+				"ability",
+				"app/models/ability.rb"
+			],
+			[
+				"tasklistco",
+				"app/controllers/task_lists_controller.rb"
+			],
+			[
+				"taskcon",
+				"app/controllers/tasks_controller.rb"
+			],
+			[
+				"task_for",
+				"app/views/tasks/_form.html.haml"
+			],
+			[
+				"taskco",
+				"app/controllers/tasks_controller.rb"
+			],
+			[
+				"application.ha",
+				"app/views/layouts/application.html.haml"
+			],
+			[
+				"task_fo",
+				"app/views/tasks/_form.html.haml"
+			],
+			[
+				"tasks/new",
+				"app/views/tasks/new.html.haml"
+			],
+			[
+				"application",
+				"app/views/layouts/application.html.haml"
+			],
+			[
+				"ro",
+				"config/routes.rb"
+			],
+			[
+				"tasklist.rb",
+				"app/models/task_list.rb"
+			],
+			[
+				"task.rb",
+				"app/models/task.rb"
+			],
+			[
+				"task",
+				"app/assets/javascripts/backbone/models/task.js"
+			],
+			[
+				"tasklist",
+				"app/views/task_lists/_tasklist.html.haml"
+			],
+			[
+				"tasklistvi",
+				"app/views/task_lists/view.html.haml"
+			],
+			[
+				"tasklistsho",
+				"app/views/task_lists/show.html.haml"
+			],
+			[
+				"task_list_index",
+				"app/assets/javascripts/backbone/views/task_lists_index.js"
+			],
+			[
+				"tasklistindex",
+				"app/views/task_lists/index.html.haml"
+			],
+			[
+				"tas",
+				"spec/factories/task_list.rb"
+			],
+			[
+				"tasklistcontro",
+				"app/controllers/task_lists_controller.rb"
+			],
+			[
+				"abi",
+				"app/models/ability.rb"
+			],
+			[
+				"rou",
+				"config/routes.rb"
+			],
+			[
+				"tasklistshow",
+				"app/views/task_lists/show.html.haml"
+			],
+			[
+				"task_list",
+				"app/views/task_lists/_form.html.haml"
+			],
+			[
+				"tasklistin",
+				"app/views/task_lists/index.html.haml"
+			],
+			[
+				"tasklistsp",
+				"spec/models/task_list_spec.rb"
+			],
+			[
+				"locales",
+				"config/locales/devise.en.yml"
+			],
+			[
+				"tasklist_fo",
+				"app/views/task_lists/_form.html.haml"
+			],
+			[
+				"atta",
+				"app/uploaders/attach_tl_uploader.rb"
+			],
+			[
+				"spe",
+				"spec/spec_helper.rb"
+			],
+			[
+				"taskspe",
+				"spec/models/task_spec.rb"
+			],
+			[
+				"spec",
+				"spec/spec_helper.rb"
+			],
+			[
+				"tagsp",
+				"spec/models/tag_spec.rb"
+			],
+			[
+				"tag_fo",
+				"app/views/tags/_form.html.haml"
+			],
+			[
+				"task_form",
+				"app/views/task_lists/_form.html.haml"
+			],
+			[
+				"tagindex",
+				"app/views/tags/index.html.haml"
+			],
+			[
+				"tag",
+				"app/models/tag.rb"
+			],
+			[
+				"app",
+				"config/application.rb"
+			],
+			[
+				"sp",
+				"spec/spec_helper.rb"
+			],
+			[
+				"uplo",
+				"app/uploaders/attach_tl_uploader.rb"
+			],
+			[
+				"taskspec",
+				"spec/models/task_spec.rb"
+			],
+			[
+				"ta",
+				"app/models/task.rb"
+			],
+			[
+				"tasklistspe",
+				"spec/models/task_list_spec.rb"
+			],
+			[
+				"tasks",
+				"spec/models/task_spec.rb"
+			],
+			[
+				"task_spec",
+				"spec/models/task_spec.rb"
+			],
+			[
+				"task_listspe",
+				"spec/models/task_list_spec.rb"
+			],
+			[
+				"da",
+				"config/database.yml"
+			],
+			[
+				"configen",
+				"config/environment.rb"
+			],
+			[
+				"fa",
+				"spec/factories.rb"
+			],
+			[
+				"fac",
+				"spec/factories.rb"
+			],
+			[
+				"gemf",
+				"Gemfile"
+			],
+			[
+				"gemfile",
+				"Gemfile.lock"
+			],
+			[
+				"facto",
+				"spec/factories.rb"
+			],
+			[
+				"u",
+				"app/models/user.rb"
+			],
+			[
+				"tasklistcss",
+				"app/assets/stylesheets/task_lists.css.scss"
+			],
+			[
+				"tasklistcon",
+				"app/controllers/task_lists_controller.rb"
+			],
+			[
+				"cu",
+				"app/views/task_lists/_current_task.html.haml"
+			],
+			[
+				"curre",
+				"app/views/task_lists/current_task.html.haml"
+			],
+			[
+				"tasklistjs",
+				"app/assets/javascripts/task_lists.js.coffee"
+			],
+			[
+				"_task",
+				"app/views/task_lists/_tasklist.html.haml"
+			],
+			[
+				"tasklistinde",
+				"app/views/task_lists/index.html.haml"
+			],
+			[
+				"_tasklist",
+				"app/views/task_lists/_task_list.html.haml"
+			],
+			[
+				"tasklistcoff",
+				"app/assets/javascripts/task_lists.js.coffee"
+			],
+			[
+				"task_li",
+				"app/models/task_list.rb"
+			],
+			[
+				"envi",
+				"config/environment.rb"
+			],
+			[
+				"pro",
+				"config/environments/production.rb"
+			],
+			[
+				"tasklis",
+				"app/views/task_lists/_tasklist.html.haml"
+			],
+			[
+				"abil",
+				"app/models/ability.rb"
+			],
+			[
+				"de",
+				"app/models/ability.rb"
+			],
+			[
+				"deve",
+				"config/environments/development.rb"
+			],
+			[
+				"_tas",
+				"app/views/task_lists/_tasklist.html.haml"
+			],
+			[
+				"taskcontro",
+				"app/controllers/tasks_controller.rb"
+			],
+			[
+				"tasklistview",
+				"app/views/task_lists/view.html.haml"
+			],
+			[
+				"taskin",
+				"app/views/task_lists/index.html.haml"
+			],
+			[
+				"tasklistcont",
+				"app/controllers/task_lists_controller.rb"
+			],
+			[
+				"applicationco",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"applicationhel",
+				"app/helpers/application_helper.rb"
+			],
+			[
+				"taskli",
+				"app/views/task_lists/_tasklist.html.haml"
+			],
+			[
+				"applicationhe",
+				"app/helpers/application_helper.rb"
+			],
+			[
+				"_ta",
+				"app/views/task_lists/_tasklist.html.haml"
+			],
+			[
+				"tasklistviw",
+				"app/views/task_lists/view.html.haml"
+			],
+			[
+				"tasksvi",
+				"app/views/task_lists/view.html.haml"
+			],
+			[
+				"tags",
+				"app/views/tags/show.html.haml"
+			],
+			[
+				"taskshow",
+				"app/views/tasks/show.html.haml"
+			],
+			[
+				"_formta",
+				"app/views/tasks/_form.html.haml"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 247.0,
+	"status_bar_visible": true
+}

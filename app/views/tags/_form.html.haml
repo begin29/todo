@@ -1,0 +1,9 @@
+= form_for @tag do |f|
+  - if @tag.errors.any?
+    - @tag.errors.full_messages.each do |msg|  
+      .alert.alert-error=msg
+  .field
+    = f.label :name
+    = f.text_field :name
+  .actions
+    = f.submit 'Save'
