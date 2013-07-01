@@ -1,0 +1,69 @@
+<table class= "table table-striped">
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Name</th>
+      <th>Progress</th>
+      <th>Complete</th>
+      <th>Start_date</th>
+      <th>End_date</th>
+      <th>Description</th>
+      <th>Created_at</th>
+      <th><%= if(cancan) { %></th>
+        <a href = "#task_lists/<%= task_list_id %>/tasks/view/<%= id %>" class = "btn btn-mini btn-info" >View</a>
+        <a href = "#task_lists/<%= task_list_id %>/tasks/<%= id %>/edit" class = "btn btn-mini" > Edit </a>
+        <a href = "#task_lists/<%= task_list_id %>/tasks/view/<%= id %>" class = "btn btn-mini btn-info" >Destroy</a>
+      <th><%= } %></th>
+    </tr>
+  </thead>
+  <tbody class="uncomplete">
+    <tr class = "uncheck">
+      <td><%= id %></td>
+      <td><%= name %></td>
+      <td><%= progress %></td>
+      <td><input type="checkbox" class="check"></td>
+      <td><%= start_date %></td>
+      <td><%= end_date %></td>
+      <td><%= description %></td>
+      <td><%= created_at %></td>
+      <td><%= if(cancan) { %></td>
+      
+      <td><%= } %></td>
+    </tr>
+  </tbody>
+</table>
+
+<table class= "table table-striped">
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Name</th>
+      <th>Progress</th>
+      <th>Complete</th>
+      <th>Start_date</th>
+      <th>End_date</th>
+      <th>Description</th>
+      <th>Created_at</th>
+      <th><%= if(cancan) { %></th>
+
+      <th><%= } %></th>
+    </tr>
+  </thead>
+  <tbody class="complete">
+    <tr class = "checked">
+      <td><%= id %></td>
+      <td><%= name %></td>
+      <td><%= progress %></td>
+      <td><input type="checkbox" class="check"></td>
+      <td><%= start_date %></td>
+      <td><%= end_date %></td>
+      <td><%= description %></td>
+      <td><%= created_at %></td>
+      <td><%= if(cancan) { %></td>
+        <a href = "#task_lists/<%= task_list_id %>/tasks/view/<%= id %>" class = "btn btn-mini btn-info" >View</a>
+        <a href = "#task_lists/<%= task_list_id %>/tasks/<%= id %>/edit" class = "btn btn-mini" > Edit </a>
+        <a href = "#task_lists/<%= task_list_id %>/tasks/view/<%= id %>" class = "btn btn-mini btn-info" >Destroy</a>
+      <td><%= } %></td>
+    </tr>
+  </tbody>
+</table>
