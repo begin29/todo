@@ -35,7 +35,7 @@ group :production do
 end
 
 # gem "rails-backbone"
-gem 'therubyracer'
+gem 'therubyracer', :platforms => :ruby
 gem 'haml-rails'
 gem 'jquery-rails'
 gem 'devise'
@@ -49,7 +49,7 @@ gem 'has_scope'
 gem 'will_paginate'
 
 gem 'quiet_assets', :group => :development
-
+gem 'execjs'
 
 # gem 'will_paginate', :git => "https://github.com/p7r/will_paginate.git", :branch => "rails3"
 
