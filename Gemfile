@@ -24,7 +24,6 @@ group :assets do
 end
 
 group :development, :test do
-  gem 'execjs'
 	gem 'rspec-rails'
 	gem 'shoulda-matchers'
   gem "factory_girl_rails", "~> 4.0"
