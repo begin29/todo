@@ -1,11 +1,8 @@
 class TasksController < ApplicationController
-  # load_and_authorize_resource
-
   # GET /tasks
   # GET /tasks.json
   def index
     # @tasks = Task.all
-
     @tasks = Task.where(task_list_id: params[:task_list_id])
     # @task_list = TaskList.where(id: @tasks.first.task_list_id);
 
@@ -29,13 +26,11 @@ class TasksController < ApplicationController
 
   # GET /tasks/new
   # GET /tasks/new.json
-
   def new
     respond_to do |format|
       format.html # new.html.erb
       format.json { render json: @task }
     end
-
   end
 
   # GET /tasks/1/edit

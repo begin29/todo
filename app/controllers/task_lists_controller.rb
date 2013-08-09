@@ -3,15 +3,11 @@ class TaskListsController < ApplicationController
   # GET /task_lists.json
 
   has_scope :by_sortable_asc, as: :sort_asc #do |controller, scope, value|
-    # scope.by_sortable_asc("#{scope.value}" + value)
-  # end
-
   has_scope :by_sortable_desc, as: :sort_desc
   has_scope :to_task_list, as: :id
   has_scope :by_complete, as: :id do |controller, scope, value|
     scope.by_complete
   end
-  
   
   def index
     

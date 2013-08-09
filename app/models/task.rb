@@ -1,7 +1,6 @@
 class Task < ActiveRecord::Base
   attr_accessible :complete, :description, :end_date, :name, :progress, :start_date, :task_list_id, :user_id, :attach, :delete_attach, :tag_ids
   attr_accessor :delete_attach, :cancan
-
   validates :description, :end_date, :name, :start_date,  presence: true
   validates :progress, :numericality => { :less_than_or_equal_to => 100 }
   belongs_to :task_list
@@ -11,8 +10,6 @@ class Task < ActiveRecord::Base
   has_attached_file :attach, :styles => { :medium => "300x300>", :small => "100x100" }
   validates_attachment_size :attach, :less_than => 1.megabytes 
   validates_attachment_content_type :attach, :content_type => /image/
-
-  
   before_validation { attach.clear if delete_attach == '1' }
 
   scope :scope_progress, ->{ where( "progress > ?", '50') }

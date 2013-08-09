@@ -12,4 +12,8 @@
 
 # Ignore all logfiles and tempfiles.
 /log/*.log
+<<<<<<< HEAD
 /tmp
+=======
+/tmp
+>>>>>>> 02b6bf9fb4e0a8f33f8587e0d4f48dfc587d465c

@@ -33,8 +33,11 @@ module Todo
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
 
+<<<<<<< HEAD
     config.assets.initialize_on_precompile = false
     
+=======
+>>>>>>> 02b6bf9fb4e0a8f33f8587e0d4f48dfc587d465c
     # Configure the default encoding used in templates for Ruby 1.9.
     config.encoding = "utf-8"
 
@@ -60,6 +63,9 @@ module Todo
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+<<<<<<< HEAD
 
+=======
+>>>>>>> 02b6bf9fb4e0a8f33f8587e0d4f48dfc587d465c
   end
 end
