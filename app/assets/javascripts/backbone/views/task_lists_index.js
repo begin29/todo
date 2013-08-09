@@ -1,33 +1,27 @@
 $(function(){
   Todo.Lib.Backbone.Views.TaskListsIndex = Backbone.View.extend({
-    el: 'div#body_document',
-
-    // events: {
-    //   "click btn.btn-mini.btn-info": "showTaskList"
-    // },
+    el: $('body'),
 
     initialize: function(options){
-      self = this;
+      $this = this;
+      this.$el.find("#table_head").html(JST["tasklists/_table_index"]);
+
       this.collection = options.collection;
       this.collection.on('reset', this.reset, this);
       this.collection.on('remove', this.reset, this);
       this.collection.on('change', this.reset, this);
       this.on('reset', this.reset, this);
+      $('.page-header').append('<a class = "btn btn-success new-task-list" href= "#task_list/new">New Task list</a>');
     },
 
-    // showTaskList: function(e){
-    //   e.preventDefault();
-    // },
-
     reset: function(){
-      this.$el.find("#task_lists").html('');
+      this.$el.find("#table_body").html('');
       this.collection.each(this.renderTaskList, this);
-
     },
 
     renderTaskList: function(task_list){
-      var view = new Todo.Lib.Backbone.Views.TaskListsView({ model: task_list});
-      this.$el.find("#task_lists").append(view.render().el);
+      var view = new Todo.Lib.Backbone.Views.TaskListsView({ model: task_list });
+      this.$el.find("#table_body").append(view.render().el);
     }
 
   });
@@ -42,7 +36,8 @@ $(function(){
     // },
 
     initialize: function() {
-      // this.model.on('change', this.render, this);
+      this.model.on('change', this.render, this);
+
     },
 
     // check: function(e){

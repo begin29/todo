@@ -91,23 +91,25 @@ class TaskListsController < ApplicationController
     end
   end
 
-  def view
+  # i dont know what it is
+  # def view
     
-    @task_list = TaskList.find(params[:id])
-    @tasks = apply_scopes(Task).all
-    @tasks_complete = Task.where(:complete => true)
+  #   @task_list = TaskList.find(params[:id])
+  #   @tasks = apply_scopes(Task).all
+  #   @tasks_complete = Task.where(:complete => true)
     
-  end
+  # end
 
   def complete_check
     @current_task = Task.find(params[:task_id])
-    @current_task.update_attributes(:complete=>"#{params[:type_check]}")
+    @current_task.update_attributes(:complete => params[:type_check] )
     respond_to do |format|
-      format.js { render :partial => "current_task",  :locals => {:task => @current_task }}
+      format.js { render :partial => "current_task",  :locals => {:task => @current_task } }
     end
   end    
 
   private
+  
   def cancan list
     list.each do |task_list| 
       if can? :destroy, task_list

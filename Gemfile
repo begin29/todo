@@ -13,10 +13,10 @@ group :assets do
   gem 'therubyracer'
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
-  gem 'twitter-bootstrap-rails' , '2.2.7'
   gem "less-rails"
   gem 'rails-backbone', "~> 0.9.10"
   gem 'backbone-support'
+  # gem 'backbone-validation-rails'
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
 
@@ -31,11 +31,8 @@ group :development, :test do
   gem 'guard-rspec'
 end
 
-# group :production do
-  
-# end
-
-gem 'pg'
+gem 'twitter-bootstrap-rails'
+gem 'mysql2'
 gem 'haml-rails'
 gem 'jquery-rails'
 gem 'devise'

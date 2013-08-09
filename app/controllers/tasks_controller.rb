@@ -1,13 +1,18 @@
 class TasksController < ApplicationController
-  load_and_authorize_resource
+  # load_and_authorize_resource
+
   # GET /tasks
   # GET /tasks.json
   def index
     # @tasks = Task.all
+
+    @tasks = Task.where(task_list_id: params[:task_list_id])
+    # @task_list = TaskList.where(id: @tasks.first.task_list_id);
+
     respond_to do |format|
       format.html # index.html.erb
 
-      format.json { render json: @tasks }
+      format.json { render json: @tasks}
     end
   end
 
@@ -26,7 +31,6 @@ class TasksController < ApplicationController
   # GET /tasks/new.json
 
   def new
-
     respond_to do |format|
       format.html # new.html.erb
       format.json { render json: @task }
@@ -58,27 +62,25 @@ class TasksController < ApplicationController
   # PUT /tasks/1
   # PUT /tasks/1.json
   def update
-    # @task = Task.find(params[:id])
-    params[:task][:tag_ids] ||= []
+    @task = Task.find(params[:id])
+
     respond_to do |format|
       if @task.update_attributes(params[:task])
-        format.html { redirect_to @task, notice: 'Task was successfully updated.' }
-        format.json { head :no_content }
+        format.json { render json: @task }
       else
-        format.html { render action: "edit" }
-        format.json { render json: @task.errors, status: :unprocessable_entity }
+        format.json { render json: @task.errors }
       end
     end
+
   end
 
   # DELETE /tasks/1
   # DELETE /tasks/1.json
   def destroy
-    # @task = Task.find(params[:id])
-    # @task.destroy
+    @task = Task.find(params[:id])
+    @task.destroy
 
     respond_to do |format|
-      format.html { redirect_to task_lists_url }
       format.json { head :no_content }
     end
   end

@@ -1,6 +1,5 @@
 FactoryGirl.define do
 	factory :task do
-
 		name {Faker::Name.name}
 		description {Faker::Lorem.sentence(rand(2..10))}
 		end_date { Time.at((Time.now - 1.week).to_i) }

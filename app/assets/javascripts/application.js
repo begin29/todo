@@ -14,10 +14,9 @@
 //= require jquery_ujs
 //= require twitter/bootstrap
 //= require underscore
-//= require dev
-//= require infinity
+//= require bootstrap
 //= require backbone
 //= require backbone-support
+//= require dev
 //= require_tree ./backbone
 //= require_tree ../templates
-

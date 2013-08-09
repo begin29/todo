@@ -1,0 +1,16 @@
+<td><%= id %></td>
+<td name="name"><span ><%= name %></span><input class ="hide_table_val" value="<%= name %>"></td>
+<td name="progress"><span ><%= progress %></span><input class ="hide_table_val" value="<%= progress %>"></td>
+<% if(complete) { %>
+  <td><input type="checkbox" class = "check" checked = "checked" ></td>
+<% } else { %>
+  <td><input type="checkbox" class = "check" ></td>
+<% } %>
+
+<td name="start_date"><span ><%= start_date %></span><input class ="hide_table_val" value="<%= start_date %>"></td>
+<td name="end_date"><span ><%= end_date %></span><input class ="hide_table_val" value="<%= end_date %>"></td>
+<td name="description"><span ><%= description %></span><input class ="hide_table_val" value="<%= description %>"></td>
+<td name="created_at"><span ><%= created_at %></span><input class ="hide_table_val" value="<%= created_at %>"></td>
+<td >
+  <a  class = "btn btn-mini btn-danger destroy" >Destroy</a>
+</td>
