@@ -1,0 +1,31 @@
+<h1>New Task List</h1>
+
+<form class ='form-horizontal' >
+  <div class = 'control'></div>
+  <label></label>
+</form >
+= form_for @task_list, :html => { :class => 'form-horizontal' } do |f|
+  - if @task_list.errors.any?
+    - @task_list.errors.full_messages.each do |msg|  
+      .alert.alert-error=msg
+  .control-group
+    = f.label :name, :class => 'control-label'
+    .controls
+      = f.text_field :name, :class => 'text_field'
+  .control-group
+    = f.label :description, :class => 'control-label'
+    .controls
+      = f.text_area :description, :class => 'text_area'
+      = f.hidden_field :user_id , :value => current_user.id
+  .control-group
+    = f.label :attach, :class => 'control-label'
+    .controls
+      = f.file_field :attach
+      = f.hidden_field :attach_cache
+      - if @task_list.attach?
+        = image_tag "#{@task_list.attach}", :class => "image_attach"
+        = f.label :remove_attach, :class => "inline_label"
+        = f.check_box :remove_attach
+  .form-actions
+    = f.submit nil, :class => 'btn btn-primary'
+    = link_to t('.cancel', :default => t("helpers.links.cancel")), task_lists_path, :class => 'btn'
